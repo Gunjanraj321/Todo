@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo webPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><h1>To DO webPage</h1>
+    <form onsubmit="crudoperation(event)">
+        Task <input type="text" id="task" name="task" placeholder="enter task" />
+        Desription <input type="text" id="desc" name="desc" placeholder="Desription" />
+        <button type="submit">Submit</button>
+    </form>
+
+    
+        <ul id="ul1">Your Task</ul>
+        <ul id="ul2">Task Completed</ul>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
