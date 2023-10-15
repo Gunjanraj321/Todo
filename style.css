@@ -40,7 +40,7 @@ ul#ul1 li, ul#ul2 li {
     justify-content: space-between;
     padding: 10px 0;
 }
-/* 
+
 ul#ul1 li button, ul#ul2 li button {
     padding: 5px 10px;
     cursor: pointer;
@@ -48,7 +48,7 @@ ul#ul1 li button, ul#ul2 li button {
     border: none;
     color: #fff;
     font-weight: bold;
-} */
+}
 
 ul#ul1 li button:hover, ul#ul2 li button:hover {
     background-color: #ff0000;
