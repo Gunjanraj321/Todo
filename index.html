@@ -6,17 +6,19 @@
     <title>ToDo webPage</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body><h1>To DO webPage</h1>
-    <form onsubmit="crudoperation(event)">
+<body>
+    <h1>To DO webPage</h1>
+
         Task <input type="text" id="task" name="task" placeholder="enter task" />
         Desription <input type="text" id="desc" name="desc" placeholder="Desription" />
         <button type="submit">Submit</button>
-    </form>
-
-        <ul id="ul1">Your tasks</ul>
-        
-        <ul id="ul2">Completed Tasks</ul>
     
+    <div id="toDoList">
+        <h2>Task To-Do</h2>
+    </div><br>
+
+    <div id="taskDone">
+    </div><br>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
